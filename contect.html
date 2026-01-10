@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bgmi Zone</title>
+<style>
+body{
+    margin: 0%;
+    font-family: Arial, sans-serif;
+    background-color: #0f172a;
+    color: white;
+}
+header{
+    background-color: #020617;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+}
+header h1{
+    margin: 0%;
+    color: #38bdf8;
+    font-size: 50px;
+    text-shadow:0 0 10px #abb7bd;
+}
+.line{
+    width: 90%;
+    height: 1px;
+    margin: 30px auto;
+    background: linear-gradient(to right, transparent, #38bdf8,transparent);
+    box-shadow: 0 0 10px #38bdf8;
+}
+
+nav{
+    background-color: #020617;
+    text-align: center;
+    padding:1px;
+    border-bottom: 2px solid #38bdf8;
+}
+nav a{
+        color: white;
+        margin: 15px;
+        text-decoration: none;
+        font-weight: bold;
+}
+nav a:hover{
+    color: #38bdf8;
+}
+.divs{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to rigth, #020617, #0f172a);
+    background-image: url("pub-ji.png");
+    background-size: cover;
+    background-attachment:scroll;
+}
+.divs h2{
+    color: #38bdf8;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    
+}
+.form input,
+.form textarea{
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: solid 1px black;
+}
+.form textarea{
+    resize: none;
+    height: 50px;
+}
+.form button{
+    background-color: #38bdf8;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 130px;
+    border-radius: 20px;
+    border: solid 1px black;
+}
+h3{
+    color: #38bdf8;
+    text-shadow:0 0 1px #38bdf8;
+    
+}
+footer{
+    background-color:#020617;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    border-top: 2px solid #38bdf8;
+}
+.b{
+    background-color: #020617;
+    text-align: center;
+    padding-left: 10px;
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 0px;
+     border: 1px solid #38bdf8;
+     margin-top: 20px;
+}
+.active{
+    border-bottom: 1px solid #38bdf8;
+}
+</style>
+</head>
+<body>
+    <header>
+        <H1>BGMI ZONE</H1>
+        <div class="line"></div>
+        <h4>Contect Us</h4>
+        <div class="line"></div>
+    </header>
+    
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="maps.html">Maps</a>
+            <a href="weapons.html">Weapons</a>
+            <a href="tips.html">Tips</a>
+            <a href="contect.html" class="active">Contect</a>
+            <a href="download.html">Download</a>
+            <a href="tournaments.html">Tournaments</a>
+        </ul>
+    </nav>
+<section class="divs">
+        <div class="b">
+        <h2>Get in Touch</h2>
+        </div>
+       <form class="form">
+        <input type="text" placeholder="Your Name" required><br><br>
+        <input type="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your Message" raws="5"></textarea><br><br>
+        <button type="submit">Send Message</button>
+       </form>
+    </section>
+    
+    <footer>
+        <p>This is a fan-made Website for educational purpose only.<br>
+         BGMI is a registered trademark of Krafton.
+        </p>
+        <p>&copy; 2025 BGMI Zone</p>
+    </footer>
+</body>
+</html>
